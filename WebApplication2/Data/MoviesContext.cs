@@ -19,7 +19,7 @@ namespace WebApplication2.Data
         {
             modelBuilder.Entity<Movie>().HasData(new Movie
             {
-                Id = 1,
+                Id = -1,
                 Author = "Todd Phillips",
                 Genre = "Crime , Drama , Thriller",
                 Name = "Joker",
@@ -28,7 +28,7 @@ namespace WebApplication2.Data
             },
             new Movie
             {
-                Id = 2,
+                Id = -2,
                 Author = "David Leitch",
                 Genre = "Action , Adventure",
                 Name = "Fast & Furious Presents: Hobbs & Shaw",
@@ -37,7 +37,7 @@ namespace WebApplication2.Data
             },
             new Movie
             {
-                Id = 3,
+                Id = -3,
                 Author = "Jon Favreau",
                 Genre = "Adventure , Animation , Drama , Family , Musical",
                 Name = "The Lion King",
@@ -46,7 +46,7 @@ namespace WebApplication2.Data
             },
             new Movie
             {
-                Id = 4,
+                Id = -4,
                 Author = "Joachim Rønning",
                 Genre = "Adventure , Family , Fantasy",
                 Name = "Maleficent: Mistress of Evil",
